@@ -188,7 +188,9 @@ reneta_plc_dashboard/
 - Notifications only show for the manager role.
 - No customer data can be changed without approval.
 
---## 🧠 Author & Credits
+---
+
+## 🧠 Author & Credits
 
 **Developed By**: Ahib Afnan Siam  
 🔗 [https://github.com/Ahib-Afnan-Siam](https://github.com/Ahib-Afnan-Siam)
