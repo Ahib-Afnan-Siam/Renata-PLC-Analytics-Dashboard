@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="login-container">
+    <!-- Left side form -->
+    <div class="login-form-section">
+      <h1>Holla,<br>Welcome Again</h1>
+      <p>Hey, welcome back to your special place</p>
+
+      <form action="login.php" method="POST" class="login-form">
+        <div class="error-message">
+            <?php if (isset($_GET['error'])) { echo htmlspecialchars($_GET['error']); } ?>
+        </div>
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="password" placeholder="Password" required />
+        
+        <div class="login-options">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+          <a href="#">Forgot Password?</a>
+        </div>
+
+        <button type="submit">Sign In</button>
+
+        <p class="signup-link">
+          Don’t have an account? <a href="../register/register.html">Sign Up</a>
+        </p>
+
+      </form>
+    </div>
+
+    <!-- Right side illustration -->
+    <div class="login-illustration">
+      <img src="assets/log-new.jpg?v=1" alt="Login Illustration" />
+    </div>
+  </div>
+</body>
+</html>

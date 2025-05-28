@@ -1,0 +1,50 @@
+body {
+  background: #e0f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.success-container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  animation: popIn 0.6s ease-out;
+}
+
+.checkmark {
+  font-size: 48px;
+  color: #4caf50;
+  animation: pulse 1s infinite;
+}
+
+h1 {
+  color: #333;
+  margin: 20px 0 10px;
+}
+
+p {
+  color: #666;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}

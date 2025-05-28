@@ -1,0 +1,8 @@
+CREATE TABLE notifications (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  type VARCHAR(50),
+  message TEXT,
+  link VARCHAR(255),
+  seen BOOLEAN DEFAULT 0,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
