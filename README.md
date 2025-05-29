@@ -192,5 +192,8 @@ reneta_plc_dashboard/
 
 ## 🧠 Author & Credits
 
-**Developed By**: Ahib Afnan Siam  
-🔗 [https://github.com/Ahib-Afnan-Siam](https://github.com/Ahib-Afnan-Siam)
+**Developed By**: Ahib Afnan Siam
+
+📧 ahibafnan99@gmail.com
+
+🔗 [GitHub Profile](https://github.com/Ahib-Afnan-Siam)
